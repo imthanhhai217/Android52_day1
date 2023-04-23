@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         int a = 2;
         int b = a + 1;
         Log.d(TAG, "onCreate: " + b);
+        int c = a;
 
         findViewById(R.id.tvHelloWorld).setOnClickListener(new View.OnClickListener() {
             @Override
